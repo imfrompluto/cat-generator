@@ -1,0 +1,61 @@
+.catcards{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.catcards div{
+  width: 25%;
+}
+
+header{
+  text-align: center;
+}
+
+h1{
+  font-size: 90px;
+  text-transform: uppercase;
+  font-weight: 600;
+  background: rgb(189,196,198);
+background: radial-gradient(circle, rgba(189,196,198,1) 0%, rgba(240,157,113,1) 100%);
+width: 57%;
+margin: 40px auto;
+background-clip: text;
+color: transparent;
+-webkit-text-stroke: 1px rgba(225, 225, 225, 0.725);
+
+}
+
+body{
+  font-family: "Comfortaa", sans-serif;
+  background-color: rgb(206, 172, 165);
+  color: rgb(220, 220, 220);
+}
+
+img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.arrows{
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+.arrows button{
+  background-image: url("./assets/arrow.png");
+  height: 80px;
+  width: 80px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: transparent;
+  border: none;
+  filter: invert(100%);
+  opacity: 0.5;
+
+}
+
+.arrows button:first-child{
+  transform: rotateY(180deg);
+}
